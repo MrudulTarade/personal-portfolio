@@ -1,0 +1,61 @@
+.gradient-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -10;
+  overflow: hidden;
+
+  background: linear-gradient(
+    135deg,
+    #2b5876,
+    #4e4376,
+    #1f6f8b
+  );
+
+  background-size: 300% 300%;
+
+  animation: gradientMove 20s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.orb {
+  position: absolute;
+  border-radius: 50%;
+
+  filter: blur(140px);
+
+  opacity: 0.7;
+}
+
+.orb1 {
+  width: 500px;
+  height: 500px;
+
+  background: #00ffff;
+}
+
+.orb2 {
+  width: 600px;
+  height: 600px;
+
+  background: #ff00ff;
+}
+
+.orb3 {
+  width: 450px;
+  height: 450px;
+
+  background: #00ff99;
+}
