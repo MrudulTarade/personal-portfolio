@@ -16,29 +16,51 @@
 
 .navbar-container {
 
-  display: flex;
-  align-items: center;
-  gap: 20px;
+  width: fit-content;
 
-  padding: 18px 28px;
+  margin: 0 auto;
+
+  padding: 18px 30px;
 
   border-radius: 999px;
 
   background: rgba(255,255,255,0.08);
 
   backdrop-filter: blur(25px);
-  -webkit-backdrop-filter: blur(25px);
 
-  border: 1px solid rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.12);
 
-  box-shadow:
-    0 8px 32px rgba(0,0,0,0.15);
+  transition: all 0.6s ease;
+}
+
+.navbar-wrapper {
+  position: fixed;
+
+  top: 20px;
+  left: 0;
+
+  width: 100%;
+
+  z-index: 1000;
+}
+
+.navbar-container.scrolled {
+
+  padding: 12px 22px;
 }
 
 .profile-section {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.profile-container {
+
+  position: absolute;
+
+  left: 40px;
+  top: 0;
 }
 
 .profile-pic {
@@ -50,12 +72,46 @@
 
   object-fit: cover;
 
+  transition: all 0.6s ease;
+
   border: 2px solid rgba(255,255,255,0.25);
 
   backdrop-filter: blur(25px);
 
   box-shadow:
     0 10px 30px rgba(0,0,0,0.2);
+}
+
+.profile-container.scrolled .profile-pic {
+
+  width: 85px;
+  height: 85px;
+}
+
+.name-container {
+
+  position: absolute;
+
+  left: 200px;
+
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  opacity: 0;
+
+  filter: blur(20px);
+
+  transition:
+    opacity 0.6s ease,
+    filter 0.6s ease;
+}
+
+.name-container.scrolled {
+
+  opacity: 1;
+
+  filter: blur(0);
 }
 
 .nav-links {
@@ -93,7 +149,7 @@
 
   backdrop-filter: blur(20px);
 
-  transition: all 0.3s ease;
+  transition: all 0.6s ease;
 }
 
 .nav-links a:hover {
@@ -106,4 +162,11 @@
 
   box-shadow:
     0 10px 25px rgba(255,255,255,0.08);
+}
+.navbar-container.scrolled
+.nav-links a {
+
+  padding: 8px 16px;
+
+  font-size: 0.9rem;
 }
