@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
 import GlassCard from "../components/GlassCard";
+import "./Hero.css";
 
 function Hero() {
   return (
     
-    <section className="hero">
-              <motion.div
+    <section id="home" className="hero-section">
+      <motion.div
         initial={{
           opacity: 0,
           y: 30
@@ -18,16 +19,20 @@ function Hero() {
           duration: 1
         }}
         >
-        <GlassCard>
-                <h1>Hello, I'm Your Name</h1>
+        <GlassCard className="hero-card">
+          <div className="hero-content">
+                <span className="hero-greeting">Hello,</span>
+                <h1 className="hero-title">I'm Mrudul Tarade!!!</h1>
 
-                <p>
-                  Frontend Developer &
-                  Creative Builder
+                <p className="hero-description">
+                  I am a Coder for fun, who plays around a lot of Data and AI's closest friend.<br/><br/>
+                  PS: I don't get too collaborative with AI agents.<br/><br/>
+                  Anyways, I hope you find something useful here!
                 </p>
-              </GlassCard>
-        </motion.div>
-     
+          </div>
+        </GlassCard>
+      </motion.div>
+    
     </section>
   );
 }
