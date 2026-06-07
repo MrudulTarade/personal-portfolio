@@ -1,0 +1,68 @@
+
+.hero-section {
+  min-height: 100vh;
+  width: 100%;
+  padding-top: 150px; /* navbar space */
+  padding-left: 0%;
+  padding-right: 0%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-card {
+  width: min(1200px, 90vw);
+  min-height: 75vh;
+
+  display: flex;
+  align-items: center;
+
+  padding: 4rem;
+  border-radius: 32px;
+}
+
+.hero-content {
+  max-width: 700px;
+}
+
+.hero-greeting {
+  display: block;
+
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+
+  margin-bottom: 1rem;
+
+  opacity: 0.8;
+}
+
+.hero-title {
+  font-size: clamp(3rem, 8vw, 6rem);
+  line-height: 1.05;
+  font-weight: 700;
+
+  margin-bottom: 2rem;
+}
+
+.hero-title span {
+  display: inline-block;
+}
+
+.hero-description {
+  font-size: 1.15rem;
+  line-height: 1.9;
+  max-width: 650px;
+
+  opacity: 0.9;
+}

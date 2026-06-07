@@ -9,7 +9,10 @@
 
   border-radius: 30px;
 
-  padding: 3rem;
+  padding-top: 3rem;
+  padding-left:10rem;
+  padding-right:10rem;
+  padding-bottom: 3rem;
 
   width: min(1000px, 90%);
 

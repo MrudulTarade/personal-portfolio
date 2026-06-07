@@ -3,7 +3,7 @@ import GlassCard from "../components/GlassCard";
 
 function About() {
   return (
-    <section id="about">
+    <section id="about" className="about-section">
             <motion.div
         initial={{
           opacity: 0,

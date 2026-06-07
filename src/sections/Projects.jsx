@@ -2,7 +2,7 @@ import GlassCard from "../components/GlassCard";
 
 function Projects() {
   return (
-    <section id="projects">
+    <section id="projects" className="projects-section">
       <GlassCard>
         <h2>Projects</h2>
 
