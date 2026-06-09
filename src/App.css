@@ -9,12 +9,12 @@
 
   border-radius: 30px;
 
-  padding-top: 3rem;
-  padding-left:10rem;
-  padding-right:10rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
+  padding-left:3rem;
+  padding-right:2rem;
+  padding-bottom: 2rem;
 
-  width: min(1000px, 90%);
+  width: min(1000px, 100%);
 
   margin: auto;
 
