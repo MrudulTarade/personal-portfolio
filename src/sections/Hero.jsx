@@ -5,7 +5,7 @@ import "./Hero.css";
 function Hero() {
   return (
     
-    <section id="home" className="hero-section">
+    <container id="home" className="hero-section">
       <motion.div
         initial={{
           opacity: 0,
@@ -33,7 +33,7 @@ function Hero() {
         </GlassCard>
       </motion.div>
     
-    </section>
+    </container>
   );
 }
 

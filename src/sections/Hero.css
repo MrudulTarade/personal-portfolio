@@ -1,8 +1,8 @@
 
 .hero-section {
-  min-height: 100vh;
+  min-height: 90vh;
   width: 100%;
-  padding-top: 150px; /* navbar space */
+  padding-top: 50px; /* navbar space */
   padding-left: 0%;
   padding-right: 0%;
 
@@ -21,7 +21,7 @@
 }
 
 .hero-card {
-  width: min(1200px, 90vw);
+  width: min(120px, 90vw);
   min-height: 75vh;
 
   display: flex;
@@ -32,13 +32,13 @@
 }
 
 .hero-content {
-  max-width: 700px;
+  max-width: 1000px;
 }
 
 .hero-greeting {
   display: block;
 
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 500;
   letter-spacing: 1px;
 
@@ -50,8 +50,8 @@
 .hero-title {
   font-size: clamp(3rem, 8vw, 6rem);
   line-height: 1.05;
-  font-weight: 700;
-
+  font-weight: 100;
+  letter-spacing: 3px;
   margin-bottom: 2rem;
 }
 
@@ -60,9 +60,9 @@
 }
 
 .hero-description {
-  font-size: 1.15rem;
-  line-height: 1.9;
-  max-width: 650px;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  max-width: 900px;
 
   opacity: 0.9;
 }
