@@ -25,7 +25,7 @@ function Hero() {
                 <h1 className="hero-title">I'm Mrudul Tarade!!!</h1>
 
                 <p className="hero-description">
-                  I am a Coder for fun, who plays around a lot of Data and AI's closest friend.<br/><br/>
+                  I am a Coder, who plays around a lot of Data and AI's closest friend.<br/><br/>
                   PS: I don't get too collaborative with AI agents.<br/><br/>
                   Anyways, I hope you find something useful here!
                 </p>
