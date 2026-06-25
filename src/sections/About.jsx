@@ -8,6 +8,8 @@ import {
   SiGithub,
   SiPandas,
   SiJupyter,
+  SiPostman,
+  SiGit
 } from "react-icons/si";
 
 import { VscGithub, VscCode } from "react-icons/vsc";
@@ -54,12 +56,12 @@ function About() {
                     <div className="hex-row offset">
                       <div className="hexagon"><SiReact /></div>
                       <div className="hexagon"><SiStreamlit /></div>
-                      <div className="hexagon"><SiDocker /></div>
+                      <div className="hexagon"><SiPostman /></div>
                       <div className="hexagon"><SiGithub /></div>
                     </div>
 
                     <div className="hex-row">
-                      <div className="hexagon"><VscGithub /></div>
+                      <div className="hexagon"><SiGit /></div>
                       <div className="hexagon"><SiPandas /></div>
                       <div className="hexagon"><VscCode /></div>
                     </div>
@@ -74,22 +76,22 @@ function About() {
                 <div className="experience-section">
 
                   <h2 className="role-title">
-                    Data Scientist Intern
+                    IoT Intern
                   </h2>
 
                   <div className="experience-meta">
-                    Company Name
+                    KOHLER.CO
                     <br />
-                    Jan 2025 - Present
+                    Sept 2024 - Sept 2025
                     <br />
-                    Munich, Germany
+                    Pune, INDIA
                   </div>
 
                   <ul className="experience-list">
-                    <li>Built machine learning pipelines.</li>
-                    <li>Worked with large-scale datasets.</li>
-                    <li>Developed analytics dashboards.</li>
-                    <li>Collaborated with cross-functional teams.</li>
+                    <li>Black Box testing of Web Application and Android application.</li>
+                    <li>Checked API responses of Web Application using Postman.</li>
+                    <li>Full end-to-end Test Case documentation of Android application.</li>
+                    <li>Exposed to tools: Azure DevOps, Postman.</li>
                   </ul>
 
                 </div>
