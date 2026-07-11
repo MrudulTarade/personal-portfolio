@@ -8,7 +8,6 @@
 
 .about-card {
   display: flex;
-
   gap: 4rem;
 
   min-height: 70vh;
@@ -70,7 +69,7 @@
 }
 
 .hex-grid {
-  margin-top: 3rem;
+  margin-top: 0.1rem;
 
   display: flex;
   flex-direction: column;
@@ -92,7 +91,7 @@
 
 .hex-row.single {
   justify-content: center;
-  margin-left: 155px;
+  margin-left: 50px;
 }
 
 .hexagon {

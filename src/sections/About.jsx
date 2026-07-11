@@ -2,14 +2,15 @@ import { motion } from "framer-motion";
 import {
   SiPython,
   SiDocker,
-  SiJavascript,
+  SiJavascript, SiTailwindcss, SiHtml5,
   SiReact,
   SiStreamlit,
   SiGithub,
   SiPandas,
   SiJupyter,
   SiPostman,
-  SiGit
+  SiGit,
+  SiMysql, SiFastapi, SiZerodha
 } from "react-icons/si";
 
 import { VscGithub, VscCode } from "react-icons/vsc";
@@ -51,6 +52,7 @@ function About() {
                       <div className="hexagon"><SiPython /></div>
                       <div className="hexagon"><SiDocker /></div>
                       <div className="hexagon"><SiJavascript /></div>
+                      <div className="hexagon"><SiTailwindcss /></div>
                     </div>
 
                     <div className="hex-row offset">
@@ -64,10 +66,14 @@ function About() {
                       <div className="hexagon"><SiGit /></div>
                       <div className="hexagon"><SiPandas /></div>
                       <div className="hexagon"><VscCode /></div>
+                      <div className="hexagon"><SiHtml5 /></div>
                     </div>
 
                     <div className="hex-row single">
+                      <div className="hexagon"><SiZerodha /></div>
+                      <div className="hexagon"><SiFastapi /></div>
                       <div className="hexagon"><SiJupyter /></div>
+                      <div className="hexagon"><SiMysql /></div>
                     </div>
                   </div>
 
